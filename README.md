@@ -19,4 +19,6 @@ To download and run applicaiton, you'll need to:
 
 ## Notes
 
+fresh_tomatoes.py was originally supplied by Udacity - https://github.com/udacity/ud036_StarterCode
+
 Some minor changes were made to the fresh_tomatoes.py to include the Movie Story line.
