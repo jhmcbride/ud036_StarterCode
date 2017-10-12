@@ -1,3 +1,6 @@
+""" Stores the info of the movies and runs fresh_tomatoes - which generates
+the webpage to display the content."""
+
 import media
 import fresh_tomatoes
 
@@ -31,6 +34,9 @@ baby_driver = media.Movie("Baby Driver",
                           "https://upload.wikimedia.org/wikipedia/en/8/8e/Baby_Driver_poster.jpg",
                           "https://www.youtube.com/watch?v=z2z857RSfhk")
 
+"""List to store the names of the instances of the movies."""
 movies = [toy_story, avatar, city_of_god, life_is_beautiful, boy, baby_driver]
+
+"""Runs fresh_tomatoes.py, which generates a webpage to display the movie info."""
 fresh_tomatoes.open_movies_page(movies)
-print (media.Movie.__module__)
+
